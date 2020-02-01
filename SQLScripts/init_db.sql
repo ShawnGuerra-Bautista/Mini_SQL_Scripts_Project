@@ -1,7 +1,10 @@
+/* The project description states that the Movie's year is a DATE,
+   but, with the way the data is formatted, it can only be an INTEGER. */
+
 CREATE TABLE Movie(
     mid INTEGER,
-    title VARCHAR UNIQUE,
-    year DATE UNIQUE,
+    title VARCHAR,
+    year INTEGER,
     rating REAL,
     num_ratings INTEGER,
     PRIMARY KEY (mid)
