@@ -1,3 +1,5 @@
+-- ~* means case-insensitive + REGEX
+
 SELECT m.title
 FROM Movie m
 WHERE m.mid IN (
