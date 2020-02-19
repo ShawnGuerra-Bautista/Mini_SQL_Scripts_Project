@@ -4,6 +4,8 @@ CREATE VIEW high_ratings AS
     FROM actor AS a, movie AS m
     WHERE a.mid = m.mid AND m.rating >= 4.0);
 
+-- WARNING: There is an actor with no name (Exclusion might be needed)
+-- However, it doesn't affect this problem
 CREATE VIEW low_ratings AS
     (SELECT DISTINCT a.name
     FROM actor AS a, movie AS m
