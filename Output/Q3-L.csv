@@ -1,0 +1,17 @@
+Reported Time
+Without Indexing
+"7016 rows retrieved starting from 1 in 771 ms (execution: 699 ms, fetching: 72 ms)"
+With Indexing
+"7016 rows retrieved starting from 1 in 685 ms (execution: 617 ms, fetching: 68 ms)"
+
+title,rating,percentage
+The Assignment,3.3,79.5204370210326
+The Wedding Date,3.2,79.19999980926514
+Exit Wounds,2.8,77.56021822441402
+Agent Cody Banks 2: Destination London,2.5,73.05672098435159
+Poolhall Junkies,3.9,71.30349743079728
+The Last Castle,3.4,69.9602187966186
+Detroit Rock City,3.5,69.54032857639763
+Blackmail,3.4,69.24415713575335
+Meet Joe Black,3.4,69.09704956074921
+Guess Who,3.1,68.79999923706055

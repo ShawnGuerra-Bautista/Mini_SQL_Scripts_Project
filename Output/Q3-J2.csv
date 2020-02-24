@@ -1,0 +1,8 @@
+Reported Time
+Without Indexing
+"1 row retrieved starting from 1 in 67 ms (execution: 47 ms, fetching: 20 ms)"
+With Indexing
+"1 row retrieved starting from 1 in 28 ms (execution: 6 ms, fetching: 22 ms)"
+
+count
+534

@@ -1,0 +1,175 @@
+Reported Time
+Without Indexing
+"168 rows retrieved starting from 1 in 2 s 781 ms (execution: 2 s 761 ms, fetching: 20 ms)"
+With Indexing
+"168 rows retrieved starting from 1 in 363 ms (execution: 338 ms, fetching: 25 ms)"
+
+year,title,rating
+2005,American Pie Presents Band Camp,0
+2005,Archangel,0
+2005,Bad News Bears,0
+2005,Bubble,0
+2005,Chaos,0
+2005,Charlie and the Chocolate Factory,0
+2005,Cursed,0
+2005,Dalkomhan insaeng,0
+2005,Domino,0
+2005,Evil Aliens,0
+2005,Family Guy Presents Stewie Griffin: The Untold Story,0
+2005,Final Fantasy VII: Advent Children,0
+2005,Four Brothers,0
+2005,Go Figure,0
+2005,Havoc,0
+2005,Kids in America,0
+2005,Left Behind: World at War,0
+2005,Legion of the Dead,0
+2005,Oliver Twist,0
+2005,Paha maa,0
+2005,Partner(s),0
+2005,Reefer Madness: The Movie Musical,0
+2005,Roll Bounce,0
+2005,Rosario Tijeras,0
+2005,Sidekick,0
+2005,Star Wreck: In the Pirkinning,0
+2005,Takeshis',0
+2005,The Aristocrats,0
+2005,The Best Man,0
+2005,The Business,0
+2005,The Crow: Wicked Prayer,0
+2005,The Exorcism of Emily Rose,0
+2005,The Game of Their Lives,0
+2005,The Ice Harvest,0
+2005,The Puffy Chair,0
+2005,Transporter 2,0
+2005,Where the Truth Lies,0
+2005,Wish You Were Here,0
+2005,No Direction Home: Bob Dylan,4.3
+2006,All the Boys Love Mandy Lane,0
+2006,All the King's Men,0
+2006,American Pie Presents The Naked Mile,0
+2006,Android Apocalypse,0
+2006,Big Nothing,0
+2006,Black Christmas,0
+2006,Deja Vu,0
+2006,Dorm Daze 2,0
+2006,Eragon,0
+2006,Fifty Pills,0
+2006,Friends with Money,0
+2006,Glory Road,0
+2006,Griffin & Phoenix,0
+2006,Half Light,0
+2006,Heartbreak Hotel,0
+2006,"Heroes",0
+2006,High School Musical,0
+2006,Hollow Man II,0
+2006,Huo Yuan Jia,0
+2006,Incubus,0
+2006,Longford,0
+2006,Lucky Number Slevin,0
+2006,Ring Around the Rosie,0
+2006,Sairen,0
+2006,Salvador (Puig Antich),0
+2006,SherryBaby,0
+2006,She's the Man,0
+2006,Shut Up & Sing,0
+2006,Street Thief,0
+2006,The Butterfly Effect 2,0
+2006,The Contract,0
+2006,The Dead Girl,0
+2006,The Hoax,0
+2006,The Holiday,0
+2006,The Rape of Europa,0
+2006,Wristcutters: A Love Story,0
+2006,Das Leben der Anderen,4.4
+2007,99 francs,0
+2007,Babylon 5: The Lost Tales,0
+2007,Battlestar Galactica: Razor,0
+2007,Believers,0
+2007,Blackout,0
+2007,Blue State,0
+2007,Boot Camp,0
+2007,Butterfly on a Wheel,0
+2007,Death at a Funeral,0
+2007,De fortabte sjæles ø,0
+2007,Futurama: Bender's Big Score,0
+2007,Hitman,0
+2007,I Think I Love My Wife,0
+2007,Joulutarina,0
+2007,Kickin It Old Skool,0
+2007,Knocked Up,0
+2007,Kurôzu zero,0
+2007,La antena,0
+2007,Les deux mondes,0
+2007,Magicians,0
+2007,Nightmare City 2035,0
+2007,Nina Frisk,0
+2007,Noise,0
+2007,Outlaw,0
+2007,Permanent Vacation,0
+2007,Planet Terror,0
+2007,P.S. I Love You,0
+2007,Shrek the Halls,0
+2007,Stellet licht,0
+2007,Sunshine,0
+2007,Super Sweet 16: The Movie,0
+2007,The Flock,0
+2007,The Great Debaters,0
+2007,The Man from Earth,0
+2007,The Nanny Diaries,0
+2007,The Seeker: The Dark Is Rising,0
+2007,The Water Horse,0
+2007,Transformers,0
+2007,War,0
+2007,Zeitgeist,0
+2007,Byôsoku 5 senchimêtoru,4.3
+2007,No End in Sight,4.3
+2007,Pete Seeger: The Power of Song,4.3
+2007,War Dance,4.3
+2008,Another Cinderella Story,0
+2008,April Fool's Day,0
+2008,Bianca Beauchamp All Access 2: Rubberized,0
+2008,Black Widow,0
+2008,Breathing Room,0
+2008,Camp Rock,0
+2008,Center Stage: Turn It Up,0
+2008,Dr. Jekyll and Mr. Hyde,0
+2008,Fire & Ice,0
+2008,First Sunday,0
+2008,Futurama: Bender's Game,0
+2008,Futurama: The Beast with a Billion Backs,0
+2008,Get Smart's Bruce and Lloyd Out of Control,0
+2008,Impulse,0
+2008,Käsky,0
+2008,Kidnap,0
+2008,Killer Movie,0
+2008,Knight Rider,0
+2008,Loaded,0
+2008,Lost Boys: The Tribe,0
+2008,Major Movie Star,0
+2008,Maradona by Kusturica,0
+2008,Midnight Movie,0
+2008,My Mom's New Boyfriend,0
+2008,Niko - Lentäjän poika,0
+2008,Outpost,0
+2008,Picture This,0
+2008,Pineapple Express,0
+2008,Sauna,0
+2008,Shark Swarm,0
+2008,Stargate: Continuum,0
+2008,Stargate: The Ark of Truth,0
+2008,Starship Troopers 3: Marauder,0
+2008,Sweet Nothing in My Ear,0
+2008,The Accidental Husband,0
+2008,The Andromeda Strain,0
+2008,The Little Mermaid: Ariel's Beginning,0
+2008,The Onion Movie,0
+2008,Wallace and Gromit in 'A Matter of Loaf and Death',0
+2008,War of the Worlds 2: The Next Wave,0
+2008,Whore,0
+2008,The Dark Knight,4.5
+2009,Miss March,2.7
+2009,The Last House on the Left,2.7
+2009,Star Trek,4.1
+2010,Megamind,0
+2010,The Lady from Shanghai,0
+2011,Red Sonja,0

@@ -1,0 +1,9 @@
+Reported Time
+Without Indexing
+"2 rows retrieved starting from 1 in 133 ms (execution: 109 ms, fetching: 24 ms)"
+With Indexing
+"2 rows retrieved starting from 1 in 75 ms (execution: 53 ms, fetching: 22 ms)"
+
+name
+Christian Perry
+Kristen Connolly

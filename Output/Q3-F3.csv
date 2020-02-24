@@ -1,0 +1,7 @@
+Reported Time
+Without Indexing
+"0 rows retrieved in 51 ms (execution: 22 ms, fetching: 29 ms)"
+With Indexing
+"0 rows retrieved in 37 ms (execution: 9 ms, fetching: 28 ms)"
+
+mid,title,year,rating,num_ratings

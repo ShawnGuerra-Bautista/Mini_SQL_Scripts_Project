@@ -1,0 +1,8 @@
+Reported Time
+Without Indexing
+"1 row retrieved starting from 1 in 55 ms (execution: 31 ms, fetching: 24 ms)"
+With Indexing
+"1 row retrieved starting from 1 in 39 ms (execution: 8 ms, fetching: 31 ms)"
+
+name,num_actor
+Tom Cruise,1238

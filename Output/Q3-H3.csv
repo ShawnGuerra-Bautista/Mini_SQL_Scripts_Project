@@ -1,0 +1,17 @@
+Reported Time
+Without Indexing
+"10 rows retrieved starting from 1 in 283 ms (execution: 247 ms, fetching: 36 ms)"
+With Indexing
+"10 rows retrieved starting from 1 in 246 ms (execution: 232 ms, fetching: 14 ms)"
+
+name,acting_times
+Nikolai Grinko,8
+Allan Garcia,6
+Gunnel Lindblom,6
+Tsutomu Yamazaki,6
+Anatoli Solonitsin,5
+Alfred Abel,4
+Allan Edwall,4
+Chick Collins,4
+Olaf Storm,4
+Takeshi Katô,4

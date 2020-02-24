@@ -1,0 +1,14 @@
+Reported Time
+Without Indexing
+"7 rows retrieved starting from 1 in 47 ms (execution: 22 ms, fetching: 25 ms)"
+With Indexing
+"7 rows retrieved starting from 1 in 46 ms (execution: 20 ms, fetching: 26 ms)"
+
+genre,count
+Adventure,1003
+Crime,1086
+Action,1445
+Romance,1644
+Thriller,1664
+Comedy,3566
+Drama,5076

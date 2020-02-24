@@ -1,0 +1,8 @@
+Reported Time
+Without Indexing
+"1 row retrieved starting from 1 in 38 s 588 ms (execution: 38 s 562 ms, fetching: 26 ms)"
+With Indexing
+"1 row retrieved starting from 1 in 16 s 508 ms (execution: 16 s 492 ms, fetching: 16 ms)"
+
+name,num_actor
+Samuel L. Jackson,1824
