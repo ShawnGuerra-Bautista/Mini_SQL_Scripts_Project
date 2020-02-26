@@ -1,0 +1,8 @@
+Reported Time
+Without Indexing
+"95242 rows retrieved starting from 1 in 1 s 641 ms (execution: 1 s 52 ms, fetching: 589 ms)"
+With Indexing
+"95242 rows retrieved starting from 1 in 1 s 250 ms (execution: 817 ms, fetching: 433 ms)"
+
+name,year_interval
+Morgan Jones,102
