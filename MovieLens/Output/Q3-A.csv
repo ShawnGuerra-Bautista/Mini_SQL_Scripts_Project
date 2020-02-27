@@ -1,13 +1,12 @@
 Reported Time
 Without Indexing
-"21 rows retrieved starting from 1 in 69 ms (execution: 39 ms, fetching: 30 ms)"
+"19 rows retrieved starting from 1 in 69 ms (execution: 39 ms, fetching: 30 ms)"
 With Indexing
-"21 rows retrieved starting from 1 in 56 ms (execution: 12 ms, fetching: 44 ms)"
+"19 rows retrieved starting from 1 in 56 ms (execution: 12 ms, fetching: 44 ms)"
 
 title
 A Kid in King Arthur's Court
 Archangel
-Casino Royale
 Casino Royale
 Elizabeth
 Enduring Love
@@ -23,6 +22,5 @@ Sylvia
 The Golden Compass
 The Invasion
 The Jacket
-The Mother
 The Mother
 The Power of One

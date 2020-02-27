@@ -1,4 +1,4 @@
--- Top 10 location exporters of energy
+-- Top 10 exporters of energy
 SELECT t.source, SUM(t.energy) AS total_energy
 FROM transactions AS t
 WHERE t.activity = 'Exports' AND t.source <> 'Total' AND t.destination <> 'Total'
@@ -6,7 +6,7 @@ GROUP BY t.source
 ORDER BY total_energy DESC
 LIMIT 10;
 
--- Bottom 10 location importers of energy
+-- Bottom 10 importers of energy
 SELECT t.destination, SUM(t.energy) AS total_energy
 FROM transactions AS t
 WHERE t.activity = 'Imports' AND t.destination <> 'Total' AND t.destination <> 'Total'
@@ -14,7 +14,7 @@ GROUP BY t.destination
 ORDER BY total_energy ASC
 LIMIT 10;
 -----------------------------------------------------------------------------------------------------------------------
--- Query the importers with the most unique sources, give the number
+-- Importers with the most unique sources with the number of sources
 SELECT t.destination, COUNT(DISTINCT t.source) AS num_sources
 FROM transactions AS t
 WHERE t.source <> 'Total' AND t.destination <> 'Total' AND t.activity = 'Imports'
@@ -26,7 +26,7 @@ HAVING COUNT(DISTINCT t.source) >=
        GROUP BY t.destination) ;
 
 -----------------------------------------------------------------------------------------------------------------------
--- Are the biggest Exporters among ones that Imports at the highest average prices?
+-- Do the biggest exporters import at the highest price?
 -- Answer: Yes!
 CREATE VIEW total_energy_exports_per_loc AS
     (SELECT t.source AS name, SUM(t.energy) AS total_energy
@@ -46,7 +46,7 @@ INTERSECT
     FROM total_energy_exports_per_loc AS t1
     WHERE t1.total_energy >= (SELECT MAX(t2.total_energy) FROM total_energy_exports_per_loc AS t2));
 
--- Are the biggest Importers among ones that Exports at the highest average prices?
+-- Do the biggest importers export at the highest price?
 -- Answer: Yes!
 CREATE VIEW total_energy_imports_per_loc AS
     (SELECT t.destination AS name, SUM(t.energy) AS total_energy
@@ -67,7 +67,7 @@ INTERSECT
     WHERE t1.total_energy >= (SELECT MAX(t2.total_energy) FROM total_energy_imports_per_loc AS t2));
 
 -----------------------------------------------------------------------------------------------------------------------
--- Report the highest and lowest exporters of each year
+-- Report the highest and lowest exporters for each year
 CREATE VIEW total_energy_exporters_by_year AS
     (SELECT t.source, EXTRACT(year FROM t.date) AS export_year, SUM(t.energy) AS total_energy
     FROM transactions AS t
@@ -96,8 +96,8 @@ FROM (SELECT t.source, t.export_year, t.total_energy
 ORDER BY export_year ASC, total_energy DESC, source ASC;
 
 -----------------------------------------------------------------------------------------------------------------------
--- Find the Quebec's most "trusted" customer when exporting and importing
-((SELECT t.activity, t.destination AS location, COUNT(*) AS interact_num
+-- Find Quebec’s most frequent customer when exporting and importing
+((SELECT t.activity, t.destination AS location, COUNT(*) AS months_interact_num
 FROM transactions AS t
 WHERE t.source <> 'Total' AND t.destination <> 'Total' AND t.source = 'Québec' AND t.activity = 'Exports'
 GROUP BY t.source, t.destination, t.activity
@@ -105,8 +105,7 @@ HAVING COUNT(*) >=
         ALL (SELECT COUNT(*) AS interact_num
         FROM transactions AS t
         WHERE t.source <> 'Total' AND t.destination <> 'Total' AND t.source = 'Québec' AND t.activity = 'Exports'
-        GROUP BY t.source, t.destination, t.activity)
-ORDER BY interact_num)
+        GROUP BY t.source, t.destination, t.activity))
 UNION
 (SELECT t.activity, t.source AS location, COUNT(*) AS interact_num
 FROM transactions AS t
@@ -119,7 +118,7 @@ HAVING COUNT(*) >=
         GROUP BY t.source, t.destination, t.activity)));
 
 -----------------------------------------------------------------------------------------------------------------------
--- Location with the longest history recorded for importation sources and exportation destination
+-- Find the foreign locations that have been trading with Canada for the longest time
 CREATE VIEW location_max_min_year AS
     ((SELECT t.source AS location, MAX(EXTRACT(year FROM t.date)) AS max_year, MIN(EXTRACT(year FROM t.date)) AS min_year
     FROM transactions AS t
